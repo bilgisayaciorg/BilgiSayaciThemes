@@ -1,0 +1,13 @@
+{
+	"name": "Bilgisayaci-TwoColumnTheme",
+	"version": "1.0.0",
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-connect": "*",
+		"grunt-connect-proxy": "*",
+		"grunt-sass": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-newer": "*"
+	}
+}

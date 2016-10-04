@@ -1,0 +1,26 @@
+.button{
+	position: relative;
+	display: inline-block;
+	@extend .fsize15;
+	padding: ($space) ($space*2);
+	@include border-radius(4px);
+	-webkit-appearance: none;
+	border: none;
+	@extend .semiboldFont;
+	outline: none;
+}
+
+.btn-1{
+	@extend .button;
+	background-color: $tone-alpha;
+	color: $tone-white;
+	border: 2px solid $tone-white;
+	.no-touch &:hover , .touch &:active , &.link-touch{
+		background-color: $tone-white;
+		color: $tone-main;
+	}
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+	-webkit-appearance: none;
+}

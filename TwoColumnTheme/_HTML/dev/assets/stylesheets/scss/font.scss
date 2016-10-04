@@ -1,0 +1,18 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin-ext';
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	@extend .regularFont;
+}
+
+.regularFont{
+	font-weight: 400;
+}
+
+.semiboldFont{
+	font-weight: 600;
+}
+
+.boldFont{
+	font-weight: 700;
+}

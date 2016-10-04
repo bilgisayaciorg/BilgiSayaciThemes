@@ -1,0 +1,21 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+ @import "../framework/bootstrap/variables";
+@import "../framework/bootstrap/mixins";
+
+// Reset and dependencies
+@import "../framework/bootstrap/normalize";
+@import "../framework/bootstrap/print";
+
+// Core CSS
+@import "../framework/bootstrap/scaffolding";
+@import "../framework/bootstrap/grid";
+
+// Utility classes
+@import "../framework/bootstrap/utilities";
+@import "../framework/bootstrap/responsive-utilities";
