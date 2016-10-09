@@ -1,0 +1,8 @@
+
+.icon-search:before { content: '\e800'; } /* '' */
+.icon-calendar:before { content: '\e801'; } /* '' */
+.icon-tags:before { content: '\e802'; } /* '' */
+.icon-comment:before { content: '\e803'; } /* '' */
+.icon-cancel:before { content: '\e804'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-github:before { content: '\f113'; } /* '' */

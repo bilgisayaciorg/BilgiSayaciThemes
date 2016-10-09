@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 				files: {
 					"dev/assets/js/custom/main.min.js": ["dev/assets/js/custom/core.js"],
 					"dev/assets/js/engine/engine.min.js": ["dev/assets/js/engine/jquery-1.11.0.min.js","dev/assets/js/engine/jquery-ui.min.js","dev/assets/js/engine/modernizr.2.8.3.js","dev/assets/js/engine/mobile-detect.min.js","dev/assets/js/engine/mobile-detect-modernizr.js"],
-					"dev/assets/plugin/plugin.min.js": ["dev/assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"]
+					"dev/assets/plugin/plugin.min.js": ["dev/assets/plugin/niceScroll/jquery.nicescroll.js"]
 				},
 				options: {
 					beautify: true
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
 				files: {
 					"dev/assets/js/custom/main.min.js": ["dev/assets/js/custom/core.js"],
 					"dev/assets/js/engine/engine.min.js": ["dev/assets/js/engine/jquery-1.11.0.min.js","dev/assets/js/engine/jquery-ui.min.js","dev/assets/js/engine/modernizr.2.8.3.js","dev/assets/js/engine/mobile-detect.min.js","dev/assets/js/engine/mobile-detect-modernizr.js"],
-					"dev/assets/plugin/plugin.min.js": ["dev/assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"]
+					"dev/assets/plugin/plugin.min.js": ["dev/assets/plugin/niceScroll/jquery.nicescroll.js"]
 				},
 				options: {
 					banner: "/*! <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today('yyyy-mm-dd') %> */\n"

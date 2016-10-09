@@ -1,0 +1,20 @@
+.form-group{
+	position: relative;
+	width: 100%;
+	.form-input{
+		display: block;
+		width: 100%;
+		height: $space*5;
+		@extend .fsize15;
+		padding: 0 ($space*2);
+		@include border-radius(4px);
+		border: 1px solid $tone-black;
+		outline: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	&+.form-group{
+		margin-top: $space*2;
+	}
+}
