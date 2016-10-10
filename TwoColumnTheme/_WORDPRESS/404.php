@@ -20,6 +20,7 @@
 						<input type="submit" value="ARA" />
 					</form>
 				</div>
+				<span class="close"></span>
 				<nav>
 					<ul>
 						<li><a href="javascript:;" title="Arama Formunu Aç" class="trigger-search-form"></a></li>
@@ -53,6 +54,6 @@
 			</section>
 		</div><!-- /inner-content -->
 	</div>
-
+	<?php get_footer(); ?>
 </body>
 </html />

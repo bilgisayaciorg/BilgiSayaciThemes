@@ -330,7 +330,7 @@ body {
       font-size: 1.5em;
       line-height: 1.6em; } }
 
-.fsize15, .button, .btn-1, .btn-2, .btn-3, .comment-form > p input[type=submit], .form-group .form-input, .top-nav .search-form input[type=text], .top-nav .search-form input[type=submit], .box ul li a, .pagination ul li a, .comments ul li h4, .comments ul li cite.fn, .comments ol li h4, .comments ol li cite.fn, .comments ul li p, .comments ol li p, .comments ul li .content, .comments ol li .content, .new-comment div label, .new-comment div input[type=text], .new-comment div textarea, .comment-notes, .comment-form > p label {
+.fsize15, .button, .btn-1, .btn-2, .btn-3, .comment-form > p input[type=submit], .form-group .form-input, .top-nav .search-form input[type=text], .top-nav .search-form input[type=submit], .box ul li a, .pagination ul li a, .comments ul li h4, .comments ul li cite.fn, .comments ol li h4, .comments ol li cite.fn, .comments ul li p, .comments ol li p, .comments ul li .content, .comments ol li .content, .new-comment div label, .new-comment div input[type=text], .new-comment div textarea, .page-list li a, .comment-notes, .comment-form > p label {
   font-size: 1.5em;
   line-height: 1.6em; }
 
@@ -899,6 +899,21 @@ header {
     height: 1px;
     background-color: rgba(33, 33, 33, 0.1); }
 
+.page-list {
+  list-style: none;
+  padding: 0; }
+  .page-list li {
+    float: none; }
+    .page-list li a {
+      display: block;
+      color: #27ae60;
+      -moz-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      -webkit-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out; }
+      .no-touch .page-list li a:hover, .touch .page-list li a:active {
+        color: #25a159; }
+
 /* wordpress comment template */
 .avatar.avatar-32.photo {
   display: none; }
@@ -943,6 +958,9 @@ header {
 
 h3#comments {
   display: none; }
+
+.syntaxhighlighter {
+  font-size: 1.3em !important; }
 
 /* nicescroll */
 .nicescroll-cursors {

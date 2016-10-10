@@ -660,6 +660,23 @@ header{
 	}
 }
 
+.page-list{
+	list-style: none;
+	padding: 0;
+	li{
+		float: none;
+		a{
+			display: block;
+			color: $tone-main;
+			@extend .fsize15;
+			@include transition(all 0.2s ease-out);
+			.no-touch &:hover , .touch &:active{
+				color: $tone-main-dark;
+			}
+		}
+	}
+}
+
 /* wordpress comment template */
 .avatar.avatar-32.photo{
 	display: none;
@@ -716,6 +733,10 @@ header{
 }
 
 h3#comments{display: none;}
+
+.syntaxhighlighter{
+	font-size: 1.3em !important;
+}
 
 /* nicescroll */
 .nicescroll-cursors{

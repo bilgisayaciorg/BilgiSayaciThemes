@@ -5,10 +5,15 @@
 <!--[if IE 9]>         <html class="no-js lt-ie10" lang="tr"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="tr"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Özgün makaleler ile uygulamaya dayalı anlatımlar yapan web blogu">
+    <meta name="keywords" content="jQuery Eğitimleri,jQuery Öğreniyorum,Php Eğitimleri,Css Eğitimleri,Css3,Html5,jQuery Türkiye,Wordpress Öğreniyorum,Wordpress Türkiye">
+    <meta name="author" content="Ersel Gülyaz">
+    <meta name="classification" content="Development Blog">
+    <meta name="copyright" content= "29 Ağustos 2009 bilgisayaci.org">
+    <meta name="revisit-after" content="1 days">
 
 	<meta name="og:description" content="">
 	<meta property="og:title" content="">
@@ -31,4 +36,5 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/engine/engine.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/plugin/plugin.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/custom/main.min.js"></script>
+	<?php wp_head(); ?> 
 </head>

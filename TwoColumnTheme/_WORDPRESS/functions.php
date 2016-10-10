@@ -20,8 +20,8 @@ $pages = 1;
 if(1 != $pages)
 {
 echo "<ul>";
-if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>İlk</a>";
-if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>&laquo;</a>";
+if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."' style='display: none;'>İlk</a>";
+if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."' style='display: none;'>&laquo;</a>";
 for ($i=1; $i <= $pages; $i++)
 {
 if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
@@ -29,8 +29,8 @@ if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages 
 echo ($paged == $i)? "<li><a href='".get_pagenum_link($i)."' class='active' >".$i."</a></li>":"<li><a href='".get_pagenum_link($i)."' >".$i."</a></li>";
 }
 }
-if ($paged < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($paged + 1)."'>&raquo;</a>";
-if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>Son</a>";
+if ($paged < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($paged + 1)."' style='display: none;'>&raquo;</a>";
+if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."' style='display: none;'>Son</a>";
 echo "</ul>\n";
 }
 }

@@ -8,7 +8,7 @@
 			<nav>
 				<ul>
 					<li><a href="javascript:;" class="trigger-search-form search"></a></li>
-					<li><a href="javascript:;" class="github"></a></li>
+					<li style="display: none;"><a href="javascript:;" class="github"></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -20,10 +20,11 @@
 						<input type="submit" value="ARA" />
 					</form>
 				</div>
+				<span class="close"></span>
 				<nav>
 					<ul>
 						<li><a href="javascript:;" title="Arama Formunu Aç" class="trigger-search-form"></a></li>
-						<li><a href="javascript:;" title="Temayı İndir"></a></li>
+						<li style="display: none;"><a href="javascript:;" title="Temayı İndir"></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -63,6 +64,6 @@
 			</section>
 		</div><!-- /inner-content -->
 	</div>
-
+	<?php get_footer(); ?>
 </body>
 </html />
