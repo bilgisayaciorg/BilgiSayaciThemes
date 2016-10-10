@@ -8,7 +8,7 @@
 			<nav>
 				<ul>
 					<li><a href="javascript:;" class="trigger-search-form search"></a></li>
-					<li style="display: none;"><a href="javascript:;" class="github"></a></li>
+					<li><a href="https://github.com/bilgisayaciorg/BilgiSayaciThemes" class="github"></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -24,7 +24,7 @@
 				<nav>
 					<ul>
 						<li><a href="javascript:;" title="Arama Formunu Aç" class="trigger-search-form"></a></li>
-						<li style="display: none;"><a href="javascript:;" title="Temayı İndir"></a></li>
+						<li><a href="https://github.com/bilgisayaciorg/BilgiSayaciThemes" title="Temayı İndir"></a></li>
 					</ul>
 				</nav>
 			</div>

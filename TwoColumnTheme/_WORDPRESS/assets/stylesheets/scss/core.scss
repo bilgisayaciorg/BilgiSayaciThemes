@@ -734,6 +734,40 @@ header{
 
 h3#comments{display: none;}
 
+/* wordpress contact form */
+.wpcf7-form{
+	p{
+			display: block;
+			@extend .fsize15;
+			float: none;
+			color: $tone-black;
+			padding-bottom: $space;
+			@extend .semiboldFont;
+		input[type=text],textarea{
+			    width: 50%;
+			    min-width: 320px;
+			    height: $space*5;
+			    border: 1px solid $tone-black;
+			    @include border-radius(4px);
+			    outline: none;
+			    padding: 0 ($space*2);
+			    margin-top: 4px;
+		}
+		textarea{
+			padding: $space 0;
+			height: 120px;
+			resize: none;
+		}
+		input[type=submit] {
+			@extend .btn-3;
+			cursor: pointer;
+			margin-top: $space*2;
+			font-size: 13m;
+		}
+	}
+}
+
+/* other wordpress customized */
 .syntaxhighlighter{
 	font-size: 1.3em !important;
 }
