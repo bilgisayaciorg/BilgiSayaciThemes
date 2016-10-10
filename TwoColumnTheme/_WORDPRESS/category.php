@@ -34,7 +34,6 @@
 				<h1 class="page-title"><?php foreach((get_the_category()) as $category) { echo $category->cat_name . ' '; } ?></h1>
 				<ul class="default-list">
 				
-					<?php query_posts("showposts=10"); ?>
 					<?php while(have_posts()) : the_post(); ?>
 					<li>
 						<article class="panel">
@@ -59,9 +58,6 @@
 					<?php endwhile; ?> 
 
 				</ul>
-				<div class="pagination">
-					<?php paginationFunc(); ?>
-				</div>
 			</section>
 		</div><!-- /inner-content -->
 	</div>
