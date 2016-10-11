@@ -31,7 +31,7 @@
 			</div>
 			<?php get_sidebar(); ?>
 			<section id="content">
-				<h1 class="page-title"><?php foreach((get_the_category()) as $category) { echo $category->cat_name . ' '; } ?></h1>
+				<h1 class="page-title"><?php single_cat_title(); ?></h1>
 				<ul class="default-list">
 				
 					<?php while(have_posts()) : the_post(); ?>
